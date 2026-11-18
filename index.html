@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Ardhya Krisna Anand Dipta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>MyCV<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO / HOME ========== -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-photo-wrapper">
+                <div class="hero-photo-ring"></div>
+                <div class="hero-photo">
+                    <!-- GANTI: src dengan path foto kamu -->
+                    <img src="fotogua.jpeg" alt="Foto Profil" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'photo-placeholder\'><i class=\'fas fa-user\'></i></div>';">
+                </div>
+            </div>
+            <div class="hero-text">
+                <p class="hero-greeting">Halo, Saya</p>
+                <!-- GANTI: Nama kamu -->
+                <h1 class="hero-name">Ardhya Krisna Anand Dipta</h1>
+                <!-- GANTI: Jurusan / title kamu -->
+                <p class="Teknik Informatika">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </p>
+                <div class="hero-badges">
+                    <!-- GANTI: Info singkat -->
+                    <span class="badge"><i class="fas fa-map-marker-alt"></i> Tangerang Selatan, Banten</span>
+                    <span class="badge"><i class="fas fa-graduation-cap"></i> Mahasiswa Semester 4</span>
+                    <span class="badge"><i class="fas fa-university"></i> Universitas Pamulang</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Hubungi Saya</a>
+                    <a href="#" class="btn btn-outline" download><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT / IDENTITAS ========== -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-tag"><i class="fas fa-user"></i> Identitas</span>
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card about-bio" data-aos>
+                    <div class="about-card-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>Profil</h3>
+                    <!-- GANTI: Bio / deskripsi diri kamu -->
+                    <p>
+                        Saya adalah mahasiswa aktif semester 4 jurusan Teknik Informatika di Universitas Pamulang. 
+                        Memiliki ketertarikan di bidang Cloud Computing, Web Development, dan teknologi modern. 
+                        Berkomitmen untuk terus belajar dan mengembangkan kemampuan di dunia teknologi informasi.
+                    </p>
+                </div>
+                <div class="about-info-grid">
+                    <!-- GANTI: Semua data identitas berikut -->
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-user"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Nama Lengkap</span>
+                            <span class="info-value">Ardhya Krisna Anand Dipta</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-id-badge"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">NIM</span>
+                            <span class="info-value">241011450388</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Tempat, Tanggal Lahir</span>
+                            <span class="info-value">Jakarta, 24 Agustus 2006</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-venus-mars"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Jenis Kelamin</span>
+                            <span class="info-value">Laki-laki</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Alamat</span>
+                            <span class="info-value">Jl. Merpati Raya No. 19, Tangerang Selatan</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">No. Telepon</span>
+                            <span class="info-value">0895-3300-62459</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">ardyakrisna01@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="info-card" data-aos>
+                        <div class="info-icon"><i class="fas fa-praying-hands"></i></div>
+                        <div class="info-content">
+                            <span class="info-label">Agama</span>
+                            <span class="info-value">Islam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION / RIWAYAT PENDIDIKAN ========== -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-tag"><i class="fas fa-graduation-cap"></i> Riwayat</span>
+                <h2 class="section-title">Pendidikan</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <!-- GANTI: Semua data pendidikan berikut -->
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"><i class="fas fa-university"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2024 — Sekarang</span>
+                        <h3>S1 Teknik Informatika</h3>
+                        <h4>Universitas Pamulang</h4>
+                        <p>Semester 4. Fokus pada Cloud Computing, Web Development, dan Database Management.</p>
+                        <div class="timeline-tags">
+                            <span>Cloud Computing</span>
+                            <span>Web Dev</span>
+                            <span>IPK: 3.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2021 — 2024</span>
+                        <h3>SMA / SMK</h3>
+                        <h4>SMK Negeri 4 Tangerang Selatan</h4>
+                        <p>Jurusan Animasi. Lulus dengan nilai memuaskan.</p>
+                        <div class="timeline-tags">
+                            <span>Animasi</span>
+                            <span>Lulus 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2018 — 2021</span>
+                        <h3>SMP</h3>
+                        <h4>SMP Paramarta</h4>
+                        <p>Menyelesaikan pendidikan menengah pertama.</p>
+                        <div class="timeline-tags">
+                            <span>Lulus 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"><i class="fas fa-child"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2012 — 2018</span>
+                        <h3>SD</h3>
+                        <h4>SD Negeri 4 Tangerang Selatan</h4>
+                        <p>Menyelesaikan pendidikan dasar.</p>
+                        <div class="timeline-tags">
+                            <span>Lulus 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-tag"><i class="fas fa-code"></i> Kemampuan</span>
+                <h2 class="section-title">Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- TECHNICAL SKILLS -->
+                <div class="skills-category" data-aos>
+                    <h3 class="skills-category-title"><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                    <div class="skills-bars">
+                        <!-- GANTI: Skill & persentase sesuai kemampuan kamu -->
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-html5"></i> HTML & CSS</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-php"></i> PHP</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-percent">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fas fa-database"></i> MySQL / Database</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fas fa-cloud"></i> Cloud Computing</span>
+                                <span class="skill-percent">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOOLS & SOFTWARE -->
+                <div class="skills-category" data-aos>
+                    <h3 class="skills-category-title"><i class="fas fa-tools"></i> Tools & Software</h3>
+                    <div class="skills-icons-grid">
+                        <!-- GANTI: Tools yang kamu kuasai -->
+                        <div class="skill-icon-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fas fa-terminal"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="skill-icon-card">
+                            <i class="fas fa-file-word"></i>
+                            <span>MS Office</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOFT SKILLS -->
+                <div class="skills-category full-width" data-aos>
+                    <h3 class="skills-category-title"><i class="fas fa-brain"></i> Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <!-- GANTI: Soft skills kamu -->
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon"><i class="fas fa-users"></i></div>
+                            <h4>Teamwork</h4>
+                            <p>Mampu bekerja sama dalam tim dan berkontribusi secara aktif.</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+                            <h4>Komunikasi</h4>
+                            <p>Kemampuan berkomunikasi baik secara lisan maupun tulisan.</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h4>Problem Solving</h4>
+                            <p>Mampu menganalisis dan menyelesaikan permasalahan secara efektif.</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon"><i class="fas fa-clock"></i></div>
+                            <h4>Manajemen Waktu</h4>
+                            <p>Dapat mengatur prioritas dan menyelesaikan tugas tepat waktu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-tag"><i class="fas fa-paper-plane"></i> Kontak</span>
+                <h2 class="section-title">Hubungi Saya</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <!-- GANTI: Semua data kontak -->
+                <a href="ardyakrisna01@gmail.com" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <p>ardyakrisna01gmail.com</p>
+                </a>
+                <a href="tel:+62895330062459" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h4>Telepon</h4>
+                    <p>0895-3300-62459</p>
+                </a>
+                <a href="https://wa.me/62895330062459" target="_blank" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h4>WhatsApp</h4>
+                    <p>0895-3300-62459</p>
+                </a>
+                <a href="https://instagram.com/ardya_krisna" target="_blank" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                    <h4>Instagram</h4>
+                    <p>@ardya_krisna</p>
+                </a>
+                <a href="https://linkedin.com/in/ardya-krisna" target="_blank" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <h4>LinkedIn</h4>
+                    <p>linkedin.com/in/ardya-krisna</p>
+                </a>
+                <a href="https://github.com/ArdyKrisnaaa" target="_blank" class="contact-card" data-aos>
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h4>GitHub</h4>
+                    <p>github.com/ArdyKrisnaaa</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>MyCV<span class="logo-bracket">/&gt;</span>
+                </p>
+                <!-- GANTI: Nama kamu -->
+                <p>&copy; 2026 Ardhya Krisna Anand Dipta. All Rights Reserved.</p>
+                <p class="footer-sub">Dibuat untuk Tugas UAS Cloud Computing</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
